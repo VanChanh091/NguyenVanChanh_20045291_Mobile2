@@ -1,7 +1,7 @@
 import OrderDetails from "./OrderDetail";
 import Product from "./product";
 
-class Order {
+class Order{
   private orderId: number;
   private orderDate: Date;
   private lineItems: OrderDetails[];

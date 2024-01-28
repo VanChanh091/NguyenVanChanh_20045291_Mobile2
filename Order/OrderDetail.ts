@@ -4,7 +4,10 @@ class OrderDetails {
   private quantity: number;
   private product: Product;
 
-  constructor(quantity: number, product: Product) {}
+  constructor(quantity: number, product: Product) {
+    this.setQuantity(quantity);
+    this.setProduct(product);
+  }
 
   getQuantity():number{
     return this.quantity;

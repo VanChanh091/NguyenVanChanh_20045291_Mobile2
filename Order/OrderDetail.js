@@ -2,6 +2,8 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 var OrderDetails = /** @class */ (function () {
     function OrderDetails(quantity, product) {
+        this.setQuantity(quantity);
+        this.setProduct(product);
     }
     OrderDetails.prototype.getQuantity = function () {
         return this.quantity;
